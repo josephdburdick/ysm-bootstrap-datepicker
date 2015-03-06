@@ -1544,7 +1544,7 @@
 		en: {
 			days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
 			daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
-			daysMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"],
+			daysMin: ["S", "M", "T", "W", "T", "F", "S", "S"],
 			months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
 			monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
 			today: "Today",
@@ -1722,9 +1722,9 @@
 		},
 		headTemplate: '<thead>'+
 							'<tr>'+
-								'<th class="prev">&#171;</th>'+
+								'<th class="prev"><svg xmlns="http://www.w3.org/2000/svg" width="10.9" height="18" viewBox="0 0 10.9 18"><path fill="#010101" d="M9.5 0l1.4 1.5-8 7.5 8 7.6L9.5 18 0 9z"/></svg></th>'+
 								'<th colspan="5" class="datepicker-switch"></th>'+
-								'<th class="next">&#187;</th>'+
+								'<th class="next"><svg xmlns="http://www.w3.org/2000/svg" width="10.9" height="18" viewBox="0 0 10.9 18"><path fill="#010101" d="M1.4 18L0 16.6 8 9 0 1.5 1.4 0l9.5 9z"/></svg></th>'+
 							'</tr>'+
 						'</thead>',
 		contTemplate: '<tbody><tr><td colspan="7"></td></tr></tbody>',
