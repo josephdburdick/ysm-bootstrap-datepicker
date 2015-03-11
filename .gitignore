@@ -1,6 +1,5 @@
 docs/_build
 node_modules/
 *-dist.zip
-dist/
 bower_components/
 
